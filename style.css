@@ -131,6 +131,39 @@ header img:hover {
 	object-fit: cover;
 }
 
+#photo {
+	width: auto;
+	height: 947px;
+	background-size: cover;
+}
+
+@media (max-width: 730px) {
+	header img {
+		width: 35vw;
+	}
+	.headerItems {
+		font-size: 2vw;
+	}
+
+	.typingText {
+		font-size: 3.8vw;
+	}
+
+	.centreButtons button {
+		margin-right: 10px;
+		margin-bottom: 10px;
+		width: 24vw;
+		height: 6.5vw;
+	}
+	#photo {
+		height: 100vh;
+	}
+
+	.backgroundContainer {
+		height: 100%;
+	}
+}
+
 @media (max-width: 430px) {
 	header img {
 		width: 60vw;
@@ -141,7 +174,7 @@ header img:hover {
 
 	.typingText {
 		font-size: 28px;
-		font-size: 6vw;
+		font-size: 6.5vw;
 	}
 
 	.centreButtons button {
@@ -149,5 +182,12 @@ header img:hover {
 		margin-bottom: 10px;
 		width: 40vw;
 		height: 11vw;
+	}
+	#photo {
+		height: 100vh;
+	}
+
+	.backgroundContainer {
+		height: 100%;
 	}
 }
